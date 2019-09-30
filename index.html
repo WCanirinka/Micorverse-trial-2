@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>"Hello World"</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Personal Portofolio Page</title>
 </head>
 <body>
-    <h1> Hello World, we are software developers </h1>
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="#welcome-page">About</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact-page">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <section id="welcome-section" class="welcome-section">
+        <h1>Hey It's Datagirl & Wilfried</h1>
+        <p>We are web developers</p>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2 class="project header">Here are some of our sample projects</h2>
+        <div class="project-grid">
+            <a href="http://www.eshcolvalleycmr.org" class="project-tile" target="_blank">
+                <img src="main.jpg" class="project-image" alt="projects"></a>
+                <p class="project-title">Eschol Valley</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2>This is how to reach out to us...</h2>
+        </div>
+
+        <div class="contact-links">
+            <a id="profile-link" href="https://github.com/WCanirinka" 
+            target="_blank" class="btn contact-details"><i class="fab fa-github"></i>Github_Wil</a>
+            
+            <a id="profile-link2" href="https://github.com/Datagirlcmr" target="_blank" class="btn contact-details"><i
+                    class="fab fa-github"></i>Github_Sel</a>
+        </div>
+    </section>
 </body>
+</html>
